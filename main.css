@@ -1,0 +1,249 @@
+/*
+1.vị trí
+2.Kích thước (width, height)
+3.màu sắc
+4.kiểu dáng
+*/
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial;
+}
+#header{
+    width: 100%;
+    height: 46px;
+    position: fixed;
+    display: inline-flex;
+    background-color: black ;
+}
+
+#nav{
+    width: 100%;
+}
+#nav > li{
+    display: inline-block;
+}
+#nav li:hover .sub{
+    display: block;
+}
+#nav li{
+    position: relative;
+    line-height: 46px;  
+    font-size: 20px;
+}
+#nav > li > a{
+    color:white;
+    padding: 13px 40px;
+}
+#nav .sub,
+#heady .but:hover,
+.tour-sub2 .tour-sub-1 .sticket:hover,
+#nav > li:hover > a,
+#nav > li ul a:hover,
+#nav > li ul a{
+    color:black;
+    background-color: #ccc;
+}
+#nav > li ul li {
+    width: 190px;
+}
+#nav > li ul a{
+    padding: 11px 40px;
+}
+#nav > li ul a:hover{
+    color:#ccc;
+    background-color: black;
+}
+#nav .sub{
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+    line-height: 38px;
+    list-style-type: none;
+    display: none;
+    min-width: 160px; /*chiều dài tối thiểu */
+    position: absolute;
+    top:100%;
+    left: 0;
+}
+.insert:hover .sub-1{
+    display: block;
+}
+.im {
+    display: inline;
+    float:right;
+    width:30px; 
+    height:30px;
+    margin-right: 7px;
+    margin-top: 9px;
+}
+.out{
+    background-color: black;
+    border: 0px;
+}
+.out:hover{
+    background-color: black;
+    width: 46px;
+    height: 100%;
+}
+.insert{
+    position: relative;
+}
+.sub-1{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin-right: 40px;
+    margin-top: 2px;
+}
+
+#slider{
+    padding-top: 70%;
+    background: url(https://4.bp.blogspot.com/-_EsW60yks4Y/VuqSFSaVeRI/AAAAAAAACzk/chO3K07H1_AZjbxmDkOJodmRwZCAJ8f6w/s1600/hinh-nen-pokemon-dep-nhat%2B%252822%2529.jpg) top center/ cover no-repeat;
+}
+#slider .letter{
+    color:white;
+    width: 100%;
+    margin-top: -120px;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    font-family: emoji;
+}
+.letter p{
+    padding:15px;
+}
+#heady h2,
+#heady .head-sub
+{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.head-sub-1{
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#heady{
+    padding:64px 0;
+}
+.on-head{
+    padding:20px 0;
+}
+.childe-1-tr{
+    padding:20px 70px;
+}
+.img-1{
+    width: 240px;
+    height: auto;
+}
+.img-2{
+    width: 299px;
+    height: 400px;
+}
+#heady,
+.tour-sub{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tour-sub{
+    background-color: white;
+    list-style-type: none;
+}
+
+.tour-sub p{
+    padding: 10px;
+    
+}
+.in-sold{
+    width: 20%;
+    display: inline-block;
+}
+.sold{
+    padding: 5px;
+}
+#nav,
+.but,
+.sold,
+.tour-sub2 .tour-sub-1 .sticket{
+    background-color: black;
+    color:white;
+}
+.in-sold1{
+    float:right;
+    padding: 6px 9px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -6px;
+}
+
+.tour-sub2{
+    margin-top: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 0 0 16px;
+}
+#series > hr{
+    margin: 0 20%;
+}
+.tour-sub-1{
+    display: inline-block;
+    background-color: white;
+    width: 32.7%;
+    height: 660px;
+}
+.image{
+    width: 100%;
+    height: 450px;
+}
+.tour-sub2 .tour-sub-1 h3{
+    text-align: center;
+    margin: 20px 0;
+}
+.tour-sub2 .tour-sub-1 p{
+    margin: 20px;
+    font-size: 15px;
+}
+.tour-sub2 .tour-sub-1 .sticket{
+    width: 95px;
+    height: 45px;
+    margin: 0 20px;
+}
+#contact{
+    height:450px;
+}
+.address{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 50%;
+}
+.infor{
+    display: flex;
+}
+.input-1,
+.input-2{
+    margin-top: 18px;
+    width: 49.3%;
+    height: 36px;
+}
+.infor .address p{
+    margin-top: 7px;
+}
+.but{
+    float: right;
+    margin-top: 15px;
+    padding: 13px 17px;
+}
+
+#footer{
+    background: url(https://www.hiepsibaotap.com/wp-content/uploads/2016/08/Untitled-1.png) top center/ cover no-repeat;
+    background-size: contain;
+    width: 100%;
+    height:600px;
+}
